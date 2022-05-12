@@ -6,22 +6,23 @@
 /* gestione header */
 header{
     width: 100vw;
-    position: fixed;
+    position: relative;
+    z-index: 1;
+    height: 100%;
 }
 
 header nav{
-    position: relative; 
-    margin: 15px 30px;
+    position: fixed; 
+    right: 0;
+    margin: 15px 10px;
     font-size: 13px;
-    left: 0;
-    background-color: red;
 }
 
 header nav span{
     padding: 5px;
     background-color: rgba(74, 74, 74, 0.6);
     color: white;
-    border-radius: 10px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
@@ -53,10 +54,11 @@ main img{
     display: block;
 }
 
-.caller-name{
+.caller-info{
     position: absolute;
     left: 0;
     bottom: 0;
     background-color: rgba(74, 74, 74, 0.6);
     color: white;
+    padding: 3px;
 }
