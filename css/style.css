@@ -7,15 +7,14 @@
 
 header{
     width: 100vw;
-    position: relative;
+    position: fixed;
     z-index: 1;
-    height: 100%;
 }
 
 header nav{
-    position: fixed; 
-    right: 0;
-    margin: 15px 10px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px 30px;
     font-size: 13px;
 }
 
