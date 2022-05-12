@@ -20,6 +20,7 @@ header nav{
 
 header nav span{
     padding: 5px;
+    margin-left: 5px;
     background-color: rgba(74, 74, 74, 0.6);
     color: white;
     border-radius: 5px;
@@ -73,8 +74,7 @@ main img{
 
 footer{
     position: fixed;
-    height: 100px;
-    bottom: -50px;
+    bottom: 0;
 }
 
 footer nav{
@@ -82,4 +82,12 @@ footer nav{
     justify-content: space-around;
     width: 100vw;
     background-color: blue;
+}
+
+footer div{
+    display: inline-block;
+}
+
+footer div span{
+    display: block;
 }
